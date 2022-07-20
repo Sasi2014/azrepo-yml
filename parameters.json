@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "rgLocation": {
+      "value": "east us" // This value must be provided.
+    },
+    "rgName": {
+      "value": "yaml-rg" // This value is optional. Template will use default value if not provided.
+    }
+  }
+}
